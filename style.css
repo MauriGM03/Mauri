@@ -1,0 +1,39 @@
+h1 {
+    color:  rgb(255, 255, 255);
+    text-align: center;
+    font-family:serif;
+    
+}
+.body {
+    margin: 20px;
+    background-image: url(./fondo_espacial.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}   
+p {
+    color:rgb(255, 255, 255);
+    font-style: italic;
+    text-align: center;
+    margin-top: -20px;
+    
+}
+.menu {
+    width: 90%;
+    background-color: #562085cf;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.382);
+    border-width: 1px;
+    border-radius: 10px;
+    margin:auto;
+    
+
+}
+.astronauta {
+    width: 100px;    
+    border-radius: 10%;
+    margin: 10px;
+    
+    
+}
