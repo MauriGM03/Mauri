@@ -1,8 +1,7 @@
 h1 {
     color:  rgb(255, 255, 255);
     text-align: center;
-    font-family:serif;
-    
+    font-family:serif;   
 }
 .body {
     margin: 20px;
@@ -12,28 +11,42 @@ h1 {
     background-attachment: fixed;
     background-size: cover;
 }   
-p {
+#leyenda {
     color:rgb(255, 255, 255);
     font-style: italic;
     text-align: center;
     margin-top: -20px;
-    
+    font-family:'Times New Roman', Times, serif;   
 }
 .menu {
     width: 90%;
     background-color: #562085cf;
     border-style: solid;
-    border-color: rgba(255, 255, 255, 0.382);
+    border-color:rgba(137, 43, 226, 0.328);
     border-width: 1px;
     border-radius: 10px;
     margin:auto;
-    
-
+    max-width: 700px;
+    height: 600px;
 }
 .astronauta {
     width: 100px;    
     border-radius: 10%;
+    margin: 10px;   
+    color: white;
+}
+.introduccion {
+    display:flex;
+}
+.division {
+    border-color: blueviolet;
+    border-radius: 70%;
+    width: 90%;
+    height: 2px;
+    background-color:rgba(255, 255, 255, 0.511);
+}
+.int {
     margin: 10px;
-    
-    
+    color: white;
+    justify-content: center;
 }
